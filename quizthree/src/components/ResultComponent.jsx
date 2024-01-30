@@ -16,6 +16,10 @@ const Result = () => {
 
     const [score, setScore] = useState(0)
 
+    const handlePlayAgain = () => {
+      history.push('/quiz');
+    };
+
   return (
     <div className='resultScreen'>
       <div className='result'>

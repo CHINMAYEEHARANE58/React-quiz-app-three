@@ -43,11 +43,11 @@ export default class QuizComponent extends Component {
           alert('Correct Answer!');
           this.setState({ score: score + 1 });
           
-          localStorage.setItem("score", score + 1); // Update the score in local storage
+          localStorage.setItem("score", score + 1);
       } else {
           alert('Wrong Answer!');
           this.setState({ incorrect: incorrect + 1 });
-          localStorage.setItem("incorrect", incorrect + 1); // Update the score in local storage
+          localStorage.setItem("incorrect", incorrect + 1);
       }
   }
     
